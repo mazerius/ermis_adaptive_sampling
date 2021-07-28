@@ -1,0 +1,24 @@
+{
+  "name": "ermis",
+  "version": "1.0.0",
+  "description": "Middleware for aligning stream with query frequencies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stefanos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "line-reader": "^0.4.0",
+    "probdist": "^0.2.0",
+    "regression": "^2.0.1",
+    "request": "^2.88.2",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}

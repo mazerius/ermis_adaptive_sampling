@@ -1,0 +1,32 @@
+// Constant Delay
+
+"delay":{
+	"type":"constant", 
+    "value":10000
+}
+
+
+// Gaussian Delay
+
+"delay":{
+	"type":"gaussian", 
+    "mean":1000,
+    "std":100
+}
+
+
+// Binomial Delay
+
+"delay":{
+	"type":"binomial",
+	"nb_trials":2,
+	"probability":0.2
+}
+
+// Uniform Delay
+
+"delay":{
+	"type":"uniform",
+	"from":0,
+	"to":1
+}

@@ -1,0 +1,17 @@
+{
+    "streams":[
+        {   "period":10000,
+            "tr_delay":{"type":"gaussian", 
+                "mean":1000,
+                "std":100},
+            "ig_delay":{"type":"gaussian", 
+                "mean":0,
+                "std":300},
+            "tags":{
+                "key4":1
+            },
+            "value":1,
+            "fixed":0
+        }
+    ]
+}

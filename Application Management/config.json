@@ -1,0 +1,12 @@
+{
+    "queries":[
+        {   "period":20000,
+            "length":2,
+            "advanced":1,
+            "aggregate":0,
+            "tags":{
+                "key4":1
+            }
+        }
+    ]
+}
